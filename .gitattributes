@@ -1,0 +1,11 @@
+* -text
+
+.editorconfig   text
+.gitattributes  text
+.gitignore      text
+.nowignore      text
+*.txt           text
+*.md            text
+*.js            text
+*.json          text
+*.yml           text
