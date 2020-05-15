@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "eslintConfig": {
+    "extends": "@wildpeaks/typescript"
+  },
+  "eslintIgnore": [
+    "extensions",
+    "test/fixtures"
+  ],
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "useTabs": true,
+    "bracketSpacing": false,
+    "trailingComma": "none"
+  },
+  "scripts": {
+    "build": "ts-node src/build.ts",
+    "watch": "nodemon src/build.ts --ignore extensions"
+  },
+  "dependencies": {
+    "@wildpeaks/tsconfig-node": "2.6.1",
+    "ts-node": "8.10.1",
+    "typescript": "3.8.3"
+  },
+  "devDependencies": {
+    "@wildpeaks/eslint-config-typescript": "9.3.0",
+    "eslint": "6.8.0",
+    "prettier": "2.0.5"
+  }
+}

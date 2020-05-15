@@ -1,0 +1,18 @@
+{
+	"recommendations": [
+		"EditorConfig.editorconfig",
+		"mrmlnc.vscode-apache",
+		"ms-azuretools.vscode-docker",
+		"mikestead.dotenv",
+		"editorconfig.editorconfig",
+		"andrejunges.handlebars",
+		"atelierbump.language-maxscript",
+		"pkief.material-icon-theme",
+		"william-voyek.vscode-nginx",
+		"doublefint.pgsql",
+		"ionutvmi.reg",
+		"rust-lang.rust",
+		"mrmlnc.vscode-scss",
+		"slevesque.shader",
+	]
+}
