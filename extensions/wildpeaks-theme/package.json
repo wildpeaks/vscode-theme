@@ -1,14 +1,14 @@
 {
   "name": "wildpeaks-theme",
   "displayName": "Wildpeaks Theme",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Dark theme that mutes punctuation to improve readability",
   "author": "Cecile Muller",
   "publisher": "wildpeaks",
   "license": "MIT",
   "icon": "icon.png",
   "homepage": "https://github.com/wildpeaks/vscode-theme/tree/master/extensions/wildpeaks-theme#readme",
-  "repository": "https://github.com/wildpeaks/vscode-theme/blob/master/extensions/wildpeaks-theme",
+  "repository": "https://github.com/wildpeaks/vscode-theme",
   "bugs": {
     "url": "https://github.com/wildpeaks/vscode-theme/issues"
   },
