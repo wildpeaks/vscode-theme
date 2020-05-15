@@ -1,5 +1,5 @@
 # VSCode Theme
 
-Build tools for the Wildpeaks VSCode theme.
+Build tools for the **Wildpeaks VSCode Theme**.
 
-See [extensions/wildpeaks-theme](extensions/wildpeaks-theme) for the built package.
+See [folder "extensions"](extensions/wildpeaks-theme/README.md) for the built files.
