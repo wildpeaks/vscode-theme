@@ -12,6 +12,7 @@
 !/.vscode
 !/src
 !/extensions
+!/screenshots
 !/package.json
 !/tsconfig.json
 
