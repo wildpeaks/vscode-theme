@@ -8,7 +8,7 @@
   "license": "MIT",
   "icon": "icon.png",
   "homepage": "https://github.com/wildpeaks/vscode-theme/tree/master/extensions/wildpeaks-theme#readme",
-  "repository": "https://github.com/wildpeaks/vscode-theme",
+  "repository": "https://github.com/wildpeaks/vscode-theme/blob/master/extensions/wildpeaks-theme",
   "bugs": {
     "url": "https://github.com/wildpeaks/vscode-theme/issues"
   },
