@@ -367,7 +367,13 @@ const dark: VSCodeTheme = {
 				"source.dockerfile keyword",
 
 				// Rust: keywords
-				"source.rust keyword"
+				"source.rust keyword",
+
+				// Cypher: keywords, relationship signs
+				"source.cypher keyword",
+				"support.function.relationship-pattern.cypher",
+				"support.function.relationship-pattern-start.cypher",
+				"support.function.relationship-pattern-end.cypher"
 			],
 			settings: {
 				foreground: Colors.CRIMSON
@@ -452,7 +458,10 @@ const dark: VSCodeTheme = {
 				"source.glsl support",
 
 				// Handlebars: {{, }}
-				"support.constant.handlebars"
+				"support.constant.handlebars",
+
+				// Cypher: variable name
+				"variable.other.identifier.cypher"
 			],
 			settings: {
 				foreground: Colors.GREEN
@@ -499,7 +508,13 @@ const dark: VSCodeTheme = {
 				"constant.language.undefined",
 
 				// SCSS: variable name
-				"variable.scss"
+				"variable.scss",
+
+				// Cypher: Constants
+				"source.cypher constant",
+
+				// Cypher: Quant (e.g. "*0..1")
+				"support.function.relationship-pattern.quant.cypher"
 			],
 			settings: {
 				foreground: Colors.BLUE
