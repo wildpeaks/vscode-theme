@@ -6,6 +6,7 @@ Dark theme for VSCode that aims to **mute punctuation to improve readability**.
 | ------------- | ------------- |
 | .bat  | ![Batch](screenshots/Batch.jpg) |
 | .css  | ![CSS](screenshots/CSS.jpg) |
+| .cypher  | ![CSS](screenshots/Cypher_Query_Language.jpg) |
 | Dockerfile  | ![Dockerfile](screenshots/Dockerfile.jpg) |
 | .editorConfig  | ![EditorConfig](screenshots/EditorConfig.jpg) |
 | .env  | ![Environment_Variables](screenshots/Environment_Variables.jpg) |
@@ -49,3 +50,4 @@ Some file formats require additional extensions, such as:
  - `rust-lang.rust`
  - `mrmlnc.vscode-scss`
  - `slevesque.shader`
+ - `jakeboone02.cypher-query-language`

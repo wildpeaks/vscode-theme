@@ -14,5 +14,6 @@
 		"rust-lang.rust",
 		"mrmlnc.vscode-scss",
 		"slevesque.shader",
+		"jakeboone02.cypher-query-language"
 	]
 }

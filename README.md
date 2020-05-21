@@ -9,6 +9,7 @@ Install the extension from the Marketplace: [wildpeaks.wildpeaks-theme](https://
 | ------------- | ------------- |
 | .bat  | ![Batch](screenshots/Batch.jpg) |
 | .css  | ![CSS](screenshots/CSS.jpg) |
+| .cypher  | ![CSS](screenshots/Cypher_Query_Language.jpg) |
 | Dockerfile  | ![Dockerfile](screenshots/Dockerfile.jpg) |
 | .editorConfig  | ![EditorConfig](screenshots/EditorConfig.jpg) |
 | .env  | ![Environment_Variables](screenshots/Environment_Variables.jpg) |
