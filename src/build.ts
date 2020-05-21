@@ -56,7 +56,7 @@ const dark: VSCodeTheme = {
 		"editorGroupHeader.tabsBackground": Colors.BACKGROUND,
 		"tab.border": Colors.BACKGROUND,
 		"tab.inactiveBackground": Colors.BACKGROUND,
-		"tab.inactiveForeground": Colors.GREY, // WAS "#888888",
+		"tab.inactiveForeground": Colors.GREY,
 		"tab.activeBackground": Colors.LIGHT_GREY,
 		"tab.activeForeground": Colors.WHITE
 	},
