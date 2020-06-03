@@ -4,6 +4,7 @@
 .editorconfig
 .gitattributes
 .gitignore
+.github
 .prettierignore
 tsconfig.json
 node_modules
