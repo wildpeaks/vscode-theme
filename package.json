@@ -1,10 +1,38 @@
 {
-  "private": true,
+  "name": "wildpeaks-theme",
+  "displayName": "Wildpeaks Theme",
+  "version": "2.0.3",
+  "description": "Dark theme that mutes punctuation to improve readability",
+  "author": "Cecile Muller",
+  "publisher": "wildpeaks",
+  "license": "MIT",
+  "icon": "icon.png",
+  "homepage": "https://github.com/wildpeaks/vscode-theme/#readme",
+  "repository": "https://github.com/wildpeaks/vscode-theme",
+  "bugs": {
+    "url": "https://github.com/wildpeaks/vscode-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "preview": true,
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Wildpeaks Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      }
+    ]
+  },
   "eslintConfig": {
     "extends": "@wildpeaks/typescript"
   },
   "eslintIgnore": [
-    "extensions",
+    "themes",
     "test/fixtures"
   ],
   "prettier": {
@@ -15,17 +43,21 @@
     "trailingComma": "none"
   },
   "scripts": {
-    "build": "ts-node src/build.ts",
-    "watch": "nodemon src/build.ts --ignore extensions"
-  },
-  "dependencies": {
-    "@wildpeaks/tsconfig-node": "2.6.1",
-    "ts-node": "8.10.1",
-    "typescript": "3.8.3"
+    "build:1": "tsc -p .",
+    "build:2": "node out/src/build.js",
+    "build": "run-s build:*",
+    "watch:1": "tsc -p . --watch",
+    "watch:2": "nodemon out/src/build.js --watch out/src",
+    "watch": "run-p watch:*",
+    "lint": "eslint src/**/*.ts"
   },
   "devDependencies": {
-    "@wildpeaks/eslint-config-typescript": "9.3.0",
-    "eslint": "6.8.0",
-    "prettier": "2.0.5"
+    "@wildpeaks/eslint-config-typescript": "10.3.0",
+    "@wildpeaks/tsconfig-node": "2.7.0",
+    "eslint": "7.1.0",
+    "nodemon": "2.0.4",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.0.5",
+    "typescript": "3.9.3"
   }
 }

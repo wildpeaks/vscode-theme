@@ -1,0 +1,11 @@
+.archived
+.vscode/**
+.vscode-test/**
+.editorconfig
+.gitattributes
+.gitignore
+.prettierignore
+tsconfig.json
+node_modules
+screenshots
+test

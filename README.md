@@ -1,9 +1,6 @@
-# VSCode Theme
+# Wildpeaks Theme
 
-Build tools for the **Wildpeaks VSCode Theme**.
-
-Install the extension from the Marketplace: [wildpeaks.wildpeaks-theme](https://marketplace.visualstudio.com/items?itemName=wildpeaks.wildpeaks-theme).
-
+Dark theme for VSCode that aims to **mute punctuation to improve readability**.
 
 | Format  | Example screenshot |
 | ------------- | ------------- |
@@ -38,3 +35,19 @@ Install the extension from the Marketplace: [wildpeaks.wildpeaks-theme](https://
 | .tsx  | ![TypeScript_React](screenshots/TypeScript_React.jpg) |
 | .xml  | ![XML](screenshots/XML.jpg) |
 | .yml  | ![YML](screenshots/YML.jpg) |
+
+Some file formats require additional extensions, such as:
+ - `EditorConfig.editorconfig`
+ - `ms-azuretools.vscode-docker`
+ - `mikestead.dotenv`
+ - `editorconfig.editorconfig`
+ - `andrejunges.handlebars`
+ - `atelierbump.language-maxscript`
+ - `pkief.material-icon-theme`
+ - `william-voyek.vscode-nginx`
+ - `doublefint.pgsql`
+ - `ionutvmi.reg`
+ - `rust-lang.rust`
+ - `mrmlnc.vscode-scss`
+ - `slevesque.shader`
+ - `jakeboone02.cypher-query-language`

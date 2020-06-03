@@ -1,11 +1,16 @@
 {
+	"eslint.validate": [
+		"typescript"
+	],
 	"files.exclude": {
 		"LICENSE": true,
 		"*.lnk": true,
 		"*.log": true,
 		".npmrc": true,
 		".editorconfig": true,
+		".vscode-test": true,
 		"package-lock.json": true,
-		"node_modules": true
+		"node_modules": true,
+		"out": true
 	}
 }
