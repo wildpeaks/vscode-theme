@@ -10,7 +10,6 @@
 		".editorconfig": true,
 		".vscode-test": true,
 		"package-lock.json": true,
-		"node_modules": true,
-		"out": true
+		"node_modules": true
 	}
 }

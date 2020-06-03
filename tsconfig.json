@@ -1,9 +1,12 @@
 {
+	"ts-node": {
+		"skipIgnore": true,
+		"transpileOnly": true
+	},
 	"extends": "@wildpeaks/tsconfig-node",
 	"compilerOptions": {
-		"types": ["@types/node", "@types/mocha", "@types/vscode"],
-		"outDir": "out"
+		"types": ["@types/node", "@types/mocha", "@types/vscode"]
 	},
 	"include": ["src", "test"],
-	"exclude": ["node_modules", "test/unit/fixtures", "test/integration/fixtures", ".vscode-test"]
+	"exclude": ["node_modules", "test/fixtures", ".vscode-test"]
 }
