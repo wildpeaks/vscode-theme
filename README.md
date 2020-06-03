@@ -2,7 +2,7 @@
 
 ![Github Release](https://img.shields.io/github/v/release/wildpeaks/vscode-theme.svg?label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=11abfb)
 
-Dark theme for VSCode that aims to **mute punctuation to improve readability**.
+Dark theme for VSCode **focused on readability by reducing contrast of less important elements** (e.g. commas, semicolons, brackets).
 
 | Format  | Example screenshot |
 | ------------- | ------------- |
