@@ -5,7 +5,6 @@
 			"label": "build",
 			"type": "npm",
 			"script": "build",
-			"problemMatcher": "$tsc",
 			"group": {
 				"kind": "build",
 				"isDefault": true
@@ -15,9 +14,18 @@
 			"label": "watch",
 			"type": "npm",
 			"script": "watch",
-			"problemMatcher": "$tsc-watch",
 			"isBackground": true,
-			"group": "build"
+			"group": "build",
+			"problemMatcher": {
+				"pattern": {
+					"regexp": "$^"
+				},
+				"background": {
+					"activeOnStart": false,
+					"beginsPattern": "^\\[nodemon\\] starting.*$",
+					"endsPattern": "^\\[nodemon\\] (clean exit|app crashed|restarting due to changes).*$"
+				}
+			}
 		}
 	]
 }

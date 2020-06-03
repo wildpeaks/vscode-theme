@@ -4,9 +4,6 @@
 		"transpileOnly": true
 	},
 	"extends": "@wildpeaks/tsconfig-node",
-	"compilerOptions": {
-		"types": ["@types/node", "@types/mocha", "@types/vscode"]
-	},
 	"include": ["src", "test"],
 	"exclude": ["node_modules", "test/fixtures", ".vscode-test"]
 }
