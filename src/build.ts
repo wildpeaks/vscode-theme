@@ -39,7 +39,6 @@ enum Colors {
 	GREEN = "#00FF7F"
 }
 
-
 const dark: VSCodeTheme = {
 	name: "Wildpeaks Dark",
 	type: "dark",
@@ -669,6 +668,6 @@ const dark: VSCodeTheme = {
 	]
 };
 
-const filepath = join(process.cwd(), "extensions/wildpeaks-theme/theme-dark.json");
+const filepath = join(process.cwd(), "themes/dark.json");
 writeFileSync(filepath, JSON.stringify(dark), "utf8");
-console.log("Done.");
+console.log(`Generated "themes/dark.json"`);
