@@ -8,14 +8,19 @@
 !/.editorconfig
 !/.gitattributes
 !/.gitignore
+!/.github
 !/.prettierignore
 !/.vscode
+!/.vscodeignore
+!/icon.png
+!/assets
 !/src
-!/extensions
+!/test
+!/themes
 !/screenshots
 !/package.json
 !/tsconfig.json
 
 # But make sure to ignore these regardless:
+WAS *
 /test/fixtures
-/test/screenshots

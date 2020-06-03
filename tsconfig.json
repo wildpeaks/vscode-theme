@@ -1,3 +1,9 @@
 {
-	"extends": "@wildpeaks/tsconfig-node"
+	"ts-node": {
+		"skipIgnore": true,
+		"transpileOnly": true
+	},
+	"extends": "@wildpeaks/tsconfig-node",
+	"include": ["src", "test"],
+	"exclude": ["node_modules", "test/fixtures", ".vscode-test"]
 }
