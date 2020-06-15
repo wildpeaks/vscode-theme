@@ -375,7 +375,7 @@ const dark: VSCodeTheme = {
 				"support.function.relationship-pattern-end.cypher",
 
 				// Editorconfig patterns
-				"meta.section.editorconfig",
+				"meta.section.header.editorconfig",
 
 				// YML: -
 				"punctuation.definition.block.sequence.item.yaml",
@@ -472,7 +472,10 @@ const dark: VSCodeTheme = {
 				"variable.other.identifier.cypher",
 
 				// Graphviz: property name
-				"source.dot support.constant.attribute.node.dot"
+				"source.dot support.constant.attribute.node.dot",
+
+				// EditorConfig: property name
+				"source.editorconfig keyword.other.definition"
 			],
 			settings: {
 				foreground: Colors.GREEN
