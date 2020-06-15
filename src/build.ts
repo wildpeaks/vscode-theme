@@ -372,7 +372,10 @@ const dark: VSCodeTheme = {
 				"source.cypher keyword",
 				"support.function.relationship-pattern.cypher",
 				"support.function.relationship-pattern-start.cypher",
-				"support.function.relationship-pattern-end.cypher"
+				"support.function.relationship-pattern-end.cypher",
+
+				// Editorconfig patterns
+				"meta.section.editorconfig"
 			],
 			settings: {
 				foreground: Colors.CRIMSON
