@@ -15,6 +15,7 @@
 		"mrmlnc.vscode-scss",
 		"slevesque.shader",
 		"jakeboone02.cypher-query-language",
+		"joaompinto.vscode-graphviz",
 		"hbenl.vscode-test-explorer",
 		"hbenl.vscode-mocha-test-adapter"
 	]
