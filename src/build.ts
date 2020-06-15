@@ -545,6 +545,18 @@ const dark: VSCodeTheme = {
 				foreground: Colors.BLUE
 			}
 		},
+		{
+			name: "White",
+			scope: [
+				// JS, TS, TSX: string templates
+				"meta.template.expression.js",
+				"meta.template.expression.ts",
+				"meta.template.expression.tsx"
+			],
+			settings: {
+				foreground: Colors.WHITE
+			}
+		},
 
 		{
 			name: "Markdown: Default Text",
