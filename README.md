@@ -2,7 +2,7 @@
 
 ![Github Release](https://img.shields.io/github/v/release/wildpeaks/vscode-theme.svg?label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=11abfb)
 
-Dark theme for VSCode **focused on readability by reducing contrast of less important elements** (e.g. commas, semicolons, brackets).
+Dark theme for VSCode **focused on readability by reducing visibility of less important elements** (e.g. commas, semicolons, brackets).
 
 | Format  | Example screenshot |
 | ------------- | ------------- |
@@ -10,7 +10,8 @@ Dark theme for VSCode **focused on readability by reducing contrast of less impo
 | .css  | ![CSS](screenshots/CSS.jpg) |
 | .cypher  | ![CSS](screenshots/Cypher_Query_Language.jpg) |
 | Dockerfile  | ![Dockerfile](screenshots/Dockerfile.jpg) |
-| .editorConfig  | ![EditorConfig](screenshots/EditorConfig.jpg) |
+| .dot  | ![GraphViz](screenshots/GraphViz.jpg) |
+| .editorconfig  | ![EditorConfig](screenshots/EditorConfig.jpg) |
 | .env  | ![Environment_Variables](screenshots/Environment_Variables.jpg) |
 | .glsl  | ![GLSL](screenshots/GLSL.jpg) |
 | .hbs  | ![Handlebars](screenshots/Handlebars.jpg) |
@@ -53,3 +54,4 @@ Some file formats require additional extensions, such as:
  - `mrmlnc.vscode-scss`
  - `slevesque.shader`
  - `jakeboone02.cypher-query-language`
+ - `joaompinto.vscode-graphviz`
