@@ -14,6 +14,8 @@
 		"rust-lang.rust",
 		"mrmlnc.vscode-scss",
 		"slevesque.shader",
-		"jakeboone02.cypher-query-language"
+		"jakeboone02.cypher-query-language",
+		"hbenl.vscode-test-explorer",
+		"hbenl.vscode-mocha-test-adapter"
 	]
 }

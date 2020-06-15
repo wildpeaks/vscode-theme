@@ -2,17 +2,6 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Unit Tests",
-			"type": "node",
-			"request": "launch",
-			"program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
-			"cwd": "${workspaceFolder}",
-			"args": ["--colors", "-r", "ts-node/register/transpile-only", "test/unit/*.test.ts"],
-			"internalConsoleOptions": "openOnSessionStart",
-			"skipFiles": ["<node_internals>/**", "node_modules/**"],
-			"preLaunchTask": "build"
-		},
-		{
 			"name": "Extension",
 			"type": "extensionHost",
 			"request": "launch",
