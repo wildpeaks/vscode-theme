@@ -1,8 +1,8 @@
 {
   "name": "wildpeaks-theme",
   "displayName": "Wildpeaks Theme",
-  "version": "2.1.0",
-  "description": "Dark theme that mutes punctuation to improve readability",
+  "version": "2.2.0",
+  "description": "Dark theme that reduces visual clutter",
   "author": "Cecile Muller",
   "publisher": "wildpeaks",
   "license": "MIT",

@@ -372,7 +372,16 @@ const dark: VSCodeTheme = {
 				"source.cypher keyword",
 				"support.function.relationship-pattern.cypher",
 				"support.function.relationship-pattern-start.cypher",
-				"support.function.relationship-pattern-end.cypher"
+				"support.function.relationship-pattern-end.cypher",
+
+				// Editorconfig patterns
+				"meta.section.header.editorconfig",
+
+				// YML: -
+				"punctuation.definition.block.sequence.item.yaml",
+
+				// Graphviz: ->
+				"source.dot keyword.operator.dot"
 			],
 			settings: {
 				foreground: Colors.CRIMSON
@@ -460,7 +469,13 @@ const dark: VSCodeTheme = {
 				"support.constant.handlebars",
 
 				// Cypher: variable name
-				"variable.other.identifier.cypher"
+				"variable.other.identifier.cypher",
+
+				// Graphviz: property name
+				"source.dot support.constant.attribute.node.dot",
+
+				// EditorConfig: property name
+				"source.editorconfig keyword.other.definition"
 			],
 			settings: {
 				foreground: Colors.GREEN
@@ -531,6 +546,18 @@ const dark: VSCodeTheme = {
 			settings: {
 				fontStyle: Styles.ITALIC,
 				foreground: Colors.BLUE
+			}
+		},
+		{
+			name: "White",
+			scope: [
+				// JS, TS, TSX: string templates
+				"meta.template.expression.js",
+				"meta.template.expression.ts",
+				"meta.template.expression.tsx"
+			],
+			settings: {
+				foreground: Colors.WHITE
 			}
 		},
 
