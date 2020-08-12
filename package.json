@@ -49,7 +49,7 @@
     "test": "mocha -r ts-node/register/transpile-only test/unit/*.test.ts"
   },
   "devDependencies": {
-    "@types/mocha": "8.0.1",
+    "@types/mocha": "8.0.2",
     "@wildpeaks/eslint-config-typescript": "10.6.0",
     "@wildpeaks/tsconfig-node": "2.7.4",
     "eslint": "7.6.0",
