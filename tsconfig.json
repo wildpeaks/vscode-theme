@@ -3,7 +3,7 @@
 		"skipIgnore": true,
 		"transpileOnly": true
 	},
-	"extends": "@wildpeaks/tsconfig-node",
+	"extends": "@wildpeaks/tsconfig",
 	"include": ["src", "test"],
 	"exclude": ["node_modules", "test/fixtures", ".vscode-test"]
 }
