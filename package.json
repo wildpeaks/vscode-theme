@@ -35,13 +35,7 @@
     "themes",
     "test/fixtures"
   ],
-  "prettier": {
-    "printWidth": 120,
-    "tabWidth": 4,
-    "useTabs": true,
-    "bracketSpacing": false,
-    "trailingComma": "none"
-  },
+  "prettier": "@wildpeaks/prettier-config",
   "scripts": {
     "build": "ts-node src/build.ts",
     "watch": "nodemon src/build.ts --watch src",
@@ -52,6 +46,7 @@
     "@types/mocha": "8.2.0",
     "@types/node": "14.14.22",
     "@wildpeaks/eslint-config-typescript": "11.0.0",
+    "@wildpeaks/prettier-config": "11.0.0",
     "@wildpeaks/tsconfig": "4.0.0-rc2",
     "eslint": "7.18.0",
     "mocha": "8.2.1",
