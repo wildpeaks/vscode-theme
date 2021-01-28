@@ -20,7 +20,7 @@ type VSCodeTheme = {
 
 enum Styles {
 	BOLD = "bold",
-	ITALIC = "italic",
+	ITALIC = "italic"
 }
 enum Colors {
 	BACKGROUND = "#222222",
