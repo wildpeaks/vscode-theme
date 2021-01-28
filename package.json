@@ -46,7 +46,7 @@
     "build": "ts-node src/build.ts",
     "watch": "nodemon src/build.ts --watch src",
     "lint": "eslint src/**/*.ts",
-    "test": "mocha -r ts-node/register/transpile-only test/unit/*.test.ts"
+    "test": "mocha -r ts-node/register test/unit/*.test.ts"
   },
   "devDependencies": {
     "@types/mocha": "8.2.0",
