@@ -1,7 +1,8 @@
 {
   "name": "wildpeaks-theme",
   "displayName": "Wildpeaks Theme",
-  "version": "2.2.0",
+  "version": "2.3.0",
+  "preview": true,
   "description": "Dark theme that reduces visual clutter",
   "author": "Cecile Muller",
   "publisher": "wildpeaks",
@@ -15,7 +16,6 @@
   "engines": {
     "vscode": "^1.45.0"
   },
-  "preview": true,
   "categories": [
     "Themes"
   ],
@@ -48,7 +48,7 @@
     "@wildpeaks/eslint-config-typescript": "11.0.0",
     "@wildpeaks/prettier-config": "11.0.0",
     "@wildpeaks/tsconfig": "4.0.0-rc2",
-    "eslint": "7.18.0",
+    "eslint": "7.19.0",
     "mocha": "8.2.1",
     "nodemon": "2.0.7",
     "ts-node": "9.1.1",
