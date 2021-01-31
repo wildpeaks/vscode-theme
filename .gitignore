@@ -12,11 +12,8 @@
 !/.prettierignore
 !/.vscode
 !/.vscodeignore
-!/icon.png
-!/assets
 !/src
 !/test
-!/themes
 !/screenshots
 !/package.json
 !/tsconfig.json
