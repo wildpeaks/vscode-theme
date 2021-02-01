@@ -57,4 +57,9 @@ describe("Postbuild", () => {
 		const filepath = join(process.cwd(), "package/icon.png");
 		strictEqual(existsSync(filepath), true);
 	});
+
+	it("/package/README.md", function () {
+		const filepath = join(process.cwd(), "package/README.md");
+		strictEqual(existsSync(filepath), true);
+	});
 });
