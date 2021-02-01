@@ -14,7 +14,7 @@ function isObject(value: any): boolean {
 	return (typeof value === "object") && (value !== null);
 }
 
-describe("Themes", () => {
+describe("Postbuild", () => {
 	it("/package/package.json", /* @this */ function () {
 		const filepath = join(process.cwd(), "/package/package.json");
 		const pkg = parseJSON(filepath);
