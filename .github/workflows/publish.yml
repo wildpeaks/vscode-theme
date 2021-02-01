@@ -87,9 +87,9 @@ jobs:
         asset_name: theme.vsix
         asset_content_type: application/gzip
 
-    # - name: Publish to Marketplace
-    #   run: vsce publish -p ${{ secrets.MICROSOFT_DEPLOY_KEY }}
-    #   working-directory: package
+    - name: Publish to Marketplace
+      run: vsce publish -p ${{ secrets.MICROSOFT_DEPLOY_KEY }}
+      working-directory: package
 
     - name: On success
       if: success()
