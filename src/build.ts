@@ -705,9 +705,9 @@ describe("Build", function () {
 		await writeJson(join(folder, "theme-dark.json"), dark);
 	});
 	it("package.json", async function () {
-		const [, , param2, param3, param4] = process.argv;
-		const version = param2 === "--version" ? param3 : "0.0.0";
-		const preview = param4 === "latest";
+		const [, , , , , param5, param6, , param8] = process.argv;
+		const version = (param5 === "--version") ? param6 : "0.0.0";
+		const preview = (param8 !== "latest");
 		const pkg = {
 			name: "wildpeaks-theme",
 			displayName: "Wildpeaks Theme",
