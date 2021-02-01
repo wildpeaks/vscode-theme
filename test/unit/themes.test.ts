@@ -15,8 +15,8 @@ function isObject(value: any): boolean {
 }
 
 describe("Themes", () => {
-	it("/package.json", /* @this */ function () {
-		const filepath = join(process.cwd(), "package.json");
+	it("/package/package.json", /* @this */ function () {
+		const filepath = join(process.cwd(), "/package/package.json");
 		const pkg = parseJSON(filepath);
 		strictEqual(isObject(pkg), true, "pkg");
 		strictEqual(isObject(pkg.contributes), true, "pkg.contributes");
@@ -33,8 +33,8 @@ describe("Themes", () => {
 		}
 	});
 
-	it("/themes/dark.json", /* @this */ function () {
-		const filepath = join(process.cwd(), "themes/dark.json");
+	it("/package/theme-dark.json", /* @this */ function () {
+		const filepath = join(process.cwd(), "package/theme-dark.json");
 		const theme = parseJSON(filepath);
 		strictEqual(isObject(theme), true, "theme");
 		strictEqual(typeof theme.name, "string", "theme.name");
