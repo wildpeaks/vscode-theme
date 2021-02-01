@@ -2,7 +2,7 @@
 /* eslint-disable prefer-arrow-callback */
 import {join} from "path";
 // @ts-expect-error -- fs-extra doesn't provide types
-import {emptyDir, writeJson} from "fs-extra";
+import {emptyDir, writeJson, copy} from "fs-extra";
 
 type VSCodeTheme = {
 	name: string;
@@ -738,5 +738,11 @@ describe("Build", function () {
 			}
 		};
 		await writeJson(join(folder, "package.json"), pkg);
+	});
+	it("icon.png", async function () {
+		await copy(
+			join(__dirname, "icon.png"),
+			join(folder, "icon.png")
+		);
 	});
 });

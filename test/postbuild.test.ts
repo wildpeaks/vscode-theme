@@ -1,7 +1,7 @@
 /* eslint-env node */
 /* eslint-disable prefer-arrow-callback */
 import {strictEqual} from "assert";
-import {readFileSync} from "fs";
+import {readFileSync, existsSync} from "fs";
 import {join} from "path";
 import {describe, it} from "mocha";
 
@@ -15,7 +15,7 @@ function isObject(value: any): boolean {
 }
 
 describe("Postbuild", () => {
-	it("/package/package.json", /* @this */ function () {
+	it("/package/package.json", function () {
 		const filepath = join(process.cwd(), "/package/package.json");
 		const pkg = parseJSON(filepath);
 		strictEqual(isObject(pkg), true, "pkg");
@@ -33,7 +33,7 @@ describe("Postbuild", () => {
 		}
 	});
 
-	it("/package/theme-dark.json", /* @this */ function () {
+	it("/package/theme-dark.json", function () {
 		const filepath = join(process.cwd(), "package/theme-dark.json");
 		const theme = parseJSON(filepath);
 		strictEqual(isObject(theme), true, "theme");
@@ -51,5 +51,10 @@ describe("Postbuild", () => {
 			strictEqual(okScope, true, `theme.tokenColors[${i}].scope`);
 			strictEqual(isObject(color.settings), true, `theme.tokenColors[${i}].settings`);
 		}
+	});
+
+	it("/package/icon.png", function () {
+		const filepath = join(process.cwd(), "package/icon.png");
+		strictEqual(existsSync(filepath), true);
 	});
 });
