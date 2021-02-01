@@ -9,7 +9,8 @@
   ],
   "prettier": "@wildpeaks/prettier-config",
   "scripts": {
-    "build": "mocha -r ts-node/register src/build.ts --timeout 10000 --slow 5000",
+    "build": "mocha -r ts-node/register src/build.ts",
+    "watch": "mocha -r ts-node/register src/build.ts --watch --watch-files src/*",
     "lint": "eslint src/**/*.ts",
     "test": "mocha -r ts-node/register test/unit/*.test.ts"
   },
