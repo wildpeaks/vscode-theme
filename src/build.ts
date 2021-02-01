@@ -745,4 +745,10 @@ describe("Build", function () {
 			join(folder, "icon.png")
 		);
 	});
+	it("README.md", async function () {
+		await copy(
+			join(__dirname, "README.md"),
+			join(folder, "README.md")
+		);
+	});
 });
