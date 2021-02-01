@@ -747,7 +747,7 @@ describe("Build", function () {
 	});
 	it("README.md", async function () {
 		await copy(
-			join(__dirname, "README.md"),
+			join(process.cwd(), "README.md"),
 			join(folder, "README.md")
 		);
 	});
