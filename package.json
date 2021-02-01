@@ -1,46 +1,17 @@
 {
-  "name": "wildpeaks-theme",
-  "displayName": "Wildpeaks Theme",
-  "version": "2.3.0",
-  "preview": true,
-  "description": "Dark theme that reduces visual clutter",
-  "author": "Cecile Muller",
-  "publisher": "wildpeaks",
-  "license": "MIT",
-  "icon": "icon.png",
-  "homepage": "https://github.com/wildpeaks/vscode-theme/#readme",
-  "repository": "https://github.com/wildpeaks/vscode-theme",
-  "bugs": {
-    "url": "https://github.com/wildpeaks/vscode-theme/issues"
-  },
-  "engines": {
-    "vscode": "^1.45.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Wildpeaks Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
-      }
-    ]
-  },
+  "private": true,
   "eslintConfig": {
     "extends": "@wildpeaks/typescript"
   },
   "eslintIgnore": [
-    "themes",
     "test/fixtures"
   ],
   "prettier": "@wildpeaks/prettier-config",
   "scripts": {
-    "build": "ts-node src/build.ts",
-    "watch": "nodemon src/build.ts --watch src",
+    "build": "mocha -r ts-node/register src/build.ts",
+    "watch": "mocha -r ts-node/register src/build.ts --watch --watch-files src/*",
     "lint": "eslint src/**/*.ts",
-    "test": "mocha -r ts-node/register test/unit/*.test.ts"
+    "test": "mocha -r ts-node/register test/*.test.ts"
   },
   "devDependencies": {
     "@types/mocha": "8.2.0",
@@ -49,8 +20,8 @@
     "@wildpeaks/prettier-config": "11.0.0",
     "@wildpeaks/tsconfig": "4.0.0-rc2",
     "eslint": "7.19.0",
+    "fs-extra": "9.1.0",
     "mocha": "8.2.1",
-    "nodemon": "2.0.7",
     "ts-node": "9.1.1",
     "typescript": "4.1.3"
   }
