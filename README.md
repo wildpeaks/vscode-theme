@@ -56,3 +56,4 @@ Some file formats require additional extensions, such as:
  - `jakeboone02.cypher-query-language`
  - `joaompinto.vscode-graphviz`
 
+
