@@ -50,7 +50,7 @@ jobs:
     - name: Build & Test
       run: |
         npm run build -- --version ${{ github.event.inputs.version }} --tag ${{ steps.deployment.outputs.tag }}
-        npm run test
+        npm run test:postbuild
 
     - name: Create Release
       id: release

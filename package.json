@@ -11,7 +11,7 @@
     "build": "mocha -r ts-node/register src/build.ts",
     "watch": "mocha -r ts-node/register src/build.ts --watch --watch-files src/*",
     "lint": "eslint src/**/*.ts",
-    "test": "mocha -r ts-node/register test/*.test.ts"
+    "test:postbuild": "mocha -r ts-node/register test/*.test.ts"
   },
   "devDependencies": {
     "@types/mocha": "8.2.1",
