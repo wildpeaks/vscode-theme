@@ -717,7 +717,7 @@ describe("Build", function () {
 			author: "Cecile Muller",
 			publisher: "wildpeaks",
 			license: "MIT",
-			icon: "icon.png",
+			icon: "https://raw.githubusercontent.com/wildpeaks/vscode-theme/main/package/icon.png",
 			homepage: "https://github.com/wildpeaks/vscode-theme/#readme",
 			repository: "https://github.com/wildpeaks/vscode-theme",
 			bugs: {
