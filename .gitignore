@@ -5,6 +5,7 @@
 # But allow these files and folders:
 !/LICENSE
 !/README.md
+!/.browserslistrc
 !/.editorconfig
 !/.gitattributes
 !/.gitignore

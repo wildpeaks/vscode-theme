@@ -1,6 +1,4 @@
 {
-	"mochaExplorer.require": "ts-node/register",
-	"mochaExplorer.files": "test/**/*.test.ts",
 	"eslint.validate": [
 		"typescript"
 	],
