@@ -52,6 +52,13 @@ jobs:
         npm run build -- --version ${{ github.event.inputs.version }} --tag ${{ steps.deployment.outputs.tag }}
         npm run test:postbuild
 
+    - name: Install VSCE
+      run: npm install -g vsce
+
+    - name: Create VSIX
+      run: vsce package
+      working-directory: package
+
     - name: Create Release
       id: release
       uses: actions/github-script@v4.0.2
@@ -69,13 +76,6 @@ jobs:
             prerelease: '${{ steps.deployment.outputs.tag }}' !== 'latest'
           });
           core.setOutput('upload_url', release.data.upload_url);
-
-    - name: Install VSCE
-      run: npm install -g vsce
-
-    - name: Create VSIX
-      run: vsce package
-      working-directory: package
 
     - name: Attach VSIX
       uses: actions/upload-release-asset@v1.0.2
