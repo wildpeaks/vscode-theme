@@ -444,6 +444,10 @@ describe("Build", function () {
 						"support.type.property-name",
 						"support.type.vendored.property-name",
 
+						// CSS: Variable name
+						"variable.css",
+						"variable.argument.css",
+
 						// REG: Add key
 						"entity.name.function.section.add.reg",
 
