@@ -1,7 +1,6 @@
 {
 	"recommendations": [
 		"EditorConfig.editorconfig",
-		"mrmlnc.vscode-apache",
 		"ms-azuretools.vscode-docker",
 		"mikestead.dotenv",
 		"editorconfig.editorconfig",
@@ -16,7 +15,7 @@
 		"slevesque.shader",
 		"jakeboone02.cypher-query-language",
 		"joaompinto.vscode-graphviz",
-		"hbenl.vscode-test-explorer",
-		"hbenl.vscode-mocha-test-adapter"
+		"mrmlnc.vscode-apache",
+		"melmass.vex"
 	]
 }

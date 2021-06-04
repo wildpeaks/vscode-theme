@@ -155,7 +155,10 @@ describe("Build", function () {
 						"source.nginx constant.character.brace",
 
 						// Handlebars: <, >
-						"text.html.handlebars punctuation.definition.tag"
+						"text.html.handlebars punctuation.definition.tag",
+
+						// Vex
+						"punctuation.group.vex"
 					],
 					settings: {
 						foreground: Colors.MUTED
@@ -196,7 +199,8 @@ describe("Build", function () {
 						"keyword.operator.bitwise",
 						"keyword.operator.type",
 
-						// import, import * as, export, from, default
+						// type, import, import * as, export, from, default
+						"keyword.control.type",
 						"keyword.control.import",
 						"constant.language.import-export-all",
 						"keyword.control.as",
@@ -223,6 +227,11 @@ describe("Build", function () {
 						// try, catch
 						"keyword.control.trycatch",
 
+						// switch, case
+						"keyword.control.switch.js",
+						"keyword.control.switch.ts",
+						"keyword.control.switch.tsx",
+
 						// Equal signs
 						"keyword.operator.assignment",
 						"keyword.operator.comparison",
@@ -248,6 +257,7 @@ describe("Build", function () {
 
 						// TS: tripleslash "reference"
 						"entity.name.tag.directive.ts",
+						"entity.name.tag.directive.tsx",
 
 						// JS & TS: String template wrappers
 						"punctuation.definition.template-expression.begin",
@@ -303,12 +313,15 @@ describe("Build", function () {
 						// REG: Delete key
 						"entity.name.function.section.delete.reg",
 
-						// PHP: <?php, ?>, $, ::, .
+						// PHP: <?php, ?>, $, ::, ., if, elseif, else
 						"punctuation.section.embedded.begin.php",
 						"punctuation.section.embedded.end.php",
 						"punctuation.definition.variable.php",
 						"keyword.operator.class.php",
 						"keyword.operator.string.php",
+						"keyword.control.if.php",
+						"keyword.control.elseif.php",
+						"keyword.control.else.php",
 
 						// XML tags
 						"punctuation.definition.tag.xml",
@@ -389,7 +402,11 @@ describe("Build", function () {
 						"punctuation.definition.block.sequence.item.yaml",
 
 						// Graphviz: ->
-						"source.dot keyword.operator.dot"
+						"source.dot keyword.operator.dot",
+
+						// Vex
+						"keyword.control.vex",
+						"keyword.operator.vex"
 					],
 					settings: {
 						foreground: Colors.CRIMSON
@@ -444,10 +461,6 @@ describe("Build", function () {
 						"support.type.property-name",
 						"support.type.vendored.property-name",
 
-						// CSS: Variable name
-						"variable.css",
-						"variable.argument.css",
-
 						// REG: Add key
 						"entity.name.function.section.add.reg",
 
@@ -487,7 +500,10 @@ describe("Build", function () {
 						"source.dot support.constant.attribute.node.dot",
 
 						// EditorConfig: property name
-						"source.editorconfig keyword.other.definition"
+						"source.editorconfig keyword.other.definition",
+
+						// PHP: variable name
+						"variable.other.php"
 					],
 					settings: {
 						foreground: Colors.GREEN
@@ -512,6 +528,7 @@ describe("Build", function () {
 						// PHP: Constants
 						"constant.language.php",
 						"constant.other.php",
+						"variable.language.this.php",
 
 						// MS: stricmp, color
 						"support.class.primitive.maxscript",
@@ -533,8 +550,12 @@ describe("Build", function () {
 						// undefined
 						"constant.language.undefined",
 
-						// SCSS: variable name
+						// CSS & SCSS: variable name
 						"variable.scss",
+						"variable.parameter.url.scss",
+						"variable.css",
+						"variable.argument.css",
+						"variable.parameter.misc.css",
 
 						// Cypher: Constants
 						"source.cypher constant",

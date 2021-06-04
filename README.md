@@ -55,5 +55,5 @@ Some file formats require additional extensions, such as:
  - `slevesque.shader`
  - `jakeboone02.cypher-query-language`
  - `joaompinto.vscode-graphviz`
-
-
+ - `mrmlnc.vscode-apache`
+ - `melmass.vex`
