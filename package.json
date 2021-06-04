@@ -9,13 +9,12 @@
   "prettier": "@wildpeaks/prettier-config",
   "scripts": {
     "build": "mocha -r ts-node/register src/build.ts",
-    "watch": "mocha -r ts-node/register src/build.ts --watch --watch-files src/*",
-    "lint": "eslint src/**/*.ts",
+    "lint": "eslint src/*.ts test/*.ts",
     "test:postbuild": "mocha -r ts-node/register test/*.test.ts"
   },
   "devDependencies": {
     "@types/mocha": "8.2.2",
-    "@types/node": "15.9.0",
+    "@types/node": "15.12.0",
     "@wildpeaks/eslint-config-typescript": "12.0.0",
     "@wildpeaks/prettier-config": "12.0.0",
     "@wildpeaks/tsconfig": "4.0.0",
