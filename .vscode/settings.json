@@ -1,7 +1,13 @@
 {
-	"eslint.validate": [
-		"typescript"
-	],
+	// Disable underlines during screenshots
+	"typescript.validate.enable": false,
+	"javascript.validate.enable": false,
+	"php.validate.enable": false,
+	"css.validate": false,
+	"scss.validate": false,
+	"less.validate": false,
+	"yaml.validate": false,
+
 	"files.exclude": {
 		"LICENSE": true,
 		"*.lnk": true,
