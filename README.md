@@ -32,7 +32,7 @@ Dark theme for VSCode **focused on readability by reducing visibility of less im
 | `.py`           | ![Python](screenshots/Python.png)                               |
 | `.reg`          | ![REG](screenshots/REG.png)                                     |
 | `.rs`           | ![Rust](screenshots/Rust.png)                                   |
-| `.cscc`         | ![SCSS](screenshots/SCSS.png)                                   |
+| `.scss`         | ![SCSS](screenshots/SCSS.png)                                   |
 | `.sh`           | ![Shell_Script](screenshots/Shell_Script.png)                   |
 | `.ts`           | ![TypeScript](screenshots/TypeScript.png)                       |
 | `.tsx`          | ![TypeScript React](screenshots/TypeScript_React.png)           |
