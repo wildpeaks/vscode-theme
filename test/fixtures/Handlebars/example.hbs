@@ -1,0 +1,30 @@
+<p>{{firstname}} {{lastname}}</p>
+
+{{person.firstname}} {{person.lastname}}
+
+{{#with person}}
+	{{firstname}} {{lastname}}
+{{/with}}
+
+<ul class="people_list">
+	{{#each people}}
+		<li>{{this}}</li>
+	{{/each}}
+</ul>
+
+{{! This comment will not show up in the output}}
+<!-- This comment will show up as HTML-comment -->
+
+{{#each persons}}
+  {{>person person=.}}
+{{/each}}
+
+{{#each nav ~}}
+  <a href="{{url}}">
+    {{~#if test}}
+      {{~title}}
+    {{~^~}}
+      Empty
+    {{~/if~}}
+  </a>
+{{~/each}}

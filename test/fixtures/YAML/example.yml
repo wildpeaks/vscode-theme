@@ -1,0 +1,33 @@
+# Single line comment
+mytrue1: true
+mytrue2: yes
+myfalse1: false
+myfalse2: no
+mynumber: 123.45
+mytext: >
+  Multiple lines
+  of text
+mystrings:
+  myarray1: [hello, "hello world"]
+  myarray2:
+  - hello
+  - "hello world"
+myobjects:
+- {name: John Doe, mynumber: 111}
+- name: Jane Doe
+  mynumber: 222
+
+mymixin: &base
+   adapter: postgres
+   host: localhost
+target1:
+   database: myapp_target1
+   <<: *base
+target2:
+   database: myapp_target2
+   <<: *base
+
+myconditional1:
+- hello
+? [ First Name, Second Name ]
+: [ 111, 222, 333]

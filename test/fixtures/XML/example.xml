@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Multiline comment -->
+
+<example:exampleResponse xmlns:example="urn:example" myproperty="AAAAAAAA">
+	<Version>1.0</Version>
+	<URL>https://www.example.local/aaaaaa.html</URL>
+	<ThumbnailURL>&lt;img border=0 width=70 height=56 src="https://example.local/image.jpg"&gt;</ThumbnailURL>
+</example:exampleResponse>

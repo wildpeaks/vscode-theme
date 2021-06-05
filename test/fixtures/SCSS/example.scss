@@ -1,0 +1,63 @@
+:root {
+	--my-color: blue;
+}
+
+div, *, *:before, div:before, #myid, .myclass {
+	color: var(--another-color, blue);
+	border-top-color: #fafafa;
+	border-bottom-color: crimson;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-feature-settings: kern, liga, clig, calt, zero, lnum, pnum;
+	font-family: Lato, serif;
+	font-weight: 400;
+	font-size: 4em;
+	transition: all 100ms;
+	width: calc(100vw - 80px);
+	content: attr(data-example);
+	filter: drop-shadow(0.25rem 0 0.75rem #ef9035);
+}
+
+@use "example" as mymodule;
+@mixin button-base() {
+	&:hover {
+		color: green;
+	}
+}
+.myclass {
+	@include mymodule.rounded;
+	@include prefix(filter, grayscale(50%), moz webkit);
+	$width: 800px;
+	padding: 5px + c.$radius;
+	left: calc(50% - #{$width / 2});
+}
+
+@function pow($base, $exponent) {
+	$result: 1;
+	@for $_ from 1 through $exponent {
+		$result: $result * $base;
+	}
+	@return $result;
+}
+@font-face {
+	src: url("#{$my-variable}/font.woff2") format("woff2");
+}
+
+%toolbelt {
+	background: red;
+}
+.myclass {
+	@extend %toolbelt;
+	color: yellow;
+}
+
+@import "theme.css";
+@import url(theme);
+@import "landscape" screen and (orientation: landscape);
+
+// Single line comment
+
+/**
+ Multiline comment
+ */

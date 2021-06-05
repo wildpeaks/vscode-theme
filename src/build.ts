@@ -158,7 +158,19 @@ describe("Build", function () {
 						"text.html.handlebars punctuation.definition.tag",
 
 						// Vex
-						"punctuation.group.vex"
+						"punctuation.group.vex",
+
+						// Maxscript: {}, []
+						"punctuation.section.parens.mxs",
+						"punctuation.section.brackets.mxs",
+
+						// YML: {}, [], commas
+						"meta.block-mapping.yaml",
+						"punctuation.definition.sequence.begin.yaml",
+						"punctuation.definition.sequence.end.yaml",
+						"punctuation.definition.mapping.begin.yaml",
+						"punctuation.definition.mapping.end.yaml",
+						"punctuation.separator.sequence.yaml"
 					],
 					settings: {
 						foreground: Colors.MUTED
@@ -295,14 +307,13 @@ describe("Build", function () {
 						// Regex: +, *
 						"keyword.operator.quantifier.regexp",
 
-						// CSS & SCSS: *
+						// CSS & SCSS: *, #, .
+						"punctuation.definition.constant.css",
+						"punctuation.definition.entity.css",
 						"entity.name.tag.wildcard",
 
 						// CSS & SCSS: tag name
 						"entity.name.tag.css",
-
-						// CSS & SCSS: #
-						"punctuation.definition.constant.css",
 
 						// SCSS: keywords
 						"source.css.scss keyword.control",
@@ -312,6 +323,9 @@ describe("Build", function () {
 
 						// REG: Delete key
 						"entity.name.function.section.delete.reg",
+
+						// REG: hex
+						"support.type.dword.reg",
 
 						// PHP: <?php, ?>, $, ::, ., if, elseif, else
 						"punctuation.section.embedded.begin.php",
@@ -398,8 +412,10 @@ describe("Build", function () {
 						// Editorconfig patterns
 						"meta.section.header.editorconfig",
 
-						// YML: -
+						// YML: -, <<, &
 						"punctuation.definition.block.sequence.item.yaml",
+						"constant.language.merge.yaml",
+						"punctuation.definition.anchor.yaml",
 
 						// Graphviz: ->
 						"source.dot keyword.operator.dot",
@@ -541,13 +557,10 @@ describe("Build", function () {
 						"constant.other.character-class.range.regexp",
 						"constant.other.character-class.regexp",
 
-						// true, false
+						// true, false, null, NaN, undefined
 						"constant.language.boolean",
-
-						// NaN
+						"constant.language.null",
 						"constant.language.nan",
-
-						// undefined
 						"constant.language.undefined",
 
 						// CSS & SCSS: variable name
@@ -719,7 +732,11 @@ describe("Build", function () {
 						"entity.name.utility.maxscript",
 
 						// MS: struct name
-						"entity.name.struct.maxscript"
+						"entity.name.struct.maxscript",
+
+						// YML: variable name
+						"entity.name.type.anchor.yaml",
+						"variable.other.alias.yaml"
 					],
 					settings: {
 						fontStyle: Styles.BOLD
