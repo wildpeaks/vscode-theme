@@ -1,0 +1,14 @@
+# Comment 1
+# Comment 2
+
+digraph g {
+	node [style=filled,color=white,shape=box];
+
+	subgraph cluster_a {
+		style=filled;
+		color=green;
+		aaa [label="Application"];
+	}
+
+	aaa -> bbb -> ccc
+}

@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Single line example
+[-HKEY_CURRENT_USER\Example\.example]
+
+[HKEY_CURRENT_USER\Example\.example]
+@="Default property"
+"Example SZ"="Hello World"
+"Example BINARY"=hex:11
+"Example Multiple"=hex(7):48,00,65,00,6c,00,6c,00,6f,00,00,00,57,00,6f,00,72,00,6c,00,64,00,00,00,00,00
+"Example DWORD32"=dword:00000050
