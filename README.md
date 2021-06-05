@@ -4,40 +4,42 @@
 
 Dark theme for VSCode **focused on readability by reducing visibility of less important elements** (e.g. commas, semicolons, brackets).
 
-| Format  | Example screenshot |
-| ------------- | ------------- |
-| .bat  | ![Batch](screenshots/Batch.jpg) |
-| .css  | ![CSS](screenshots/CSS.jpg) |
-| .cypher  | ![CSS](screenshots/Cypher_Query_Language.jpg) |
-| Dockerfile  | ![Dockerfile](screenshots/Dockerfile.jpg) |
-| .dot  | ![GraphViz](screenshots/GraphViz.jpg) |
-| .editorconfig  | ![EditorConfig](screenshots/EditorConfig.jpg) |
-| .env  | ![Environment_Variables](screenshots/Environment_Variables.jpg) |
-| .glsl  | ![GLSL](screenshots/GLSL.jpg) |
-| .hbs  | ![Handlebars](screenshots/Handlebars.jpg) |
-| .fx, .hlsl  | ![HLSL](screenshots/HLSL.jpg) |
-| .html  | ![HTML](screenshots/HTML.jpg) |
-| .ini  | ![INI](screenshots/INI.jpg) |
-| .js  | ![JavaScript](screenshots/JavaScript.jpg) |
-| .jsx  | ![JavaScript_React](screenshots/JavaScript_React.jpg) |
-| .json  | ![JSON](screenshots/JSON.jpg) |
-| .jsonc  | ![JSON_with_Comments](screenshots/JSON_with_Comments.jpg) |
-| .md  | ![Markdown_1](screenshots/Markdown_1.jpg) |
-| .md  | ![Markdown_2](screenshots/Markdown_2.jpg) |
-| .conf (Nginx)  | ![NGINX_Conf](screenshots/NGINX_Conf.jpg) |
-| .npmrc  | ![NPMRC](screenshots/NPMRC.jpg) |
-| .sql (PGSQL)  | ![PGSQL](screenshots/PGSQL.jpg) |
-| .php  | ![PHP](screenshots/PHP.jpg) |
-| .ps1  | ![PowerShell](screenshots/PowerShell.jpg) |
-| .py  | ![Python](screenshots/Python.jpg) |
-| .reg  | ![REG](screenshots/REG.jpg) |
-| .rs  | ![Rust](screenshots/Rust.jpg) |
-| .scss  | ![SCSS](screenshots/SCSS.jpg) |
-| .sh  | ![Shell](screenshots/Shell.jpg) |
-| .ts  | ![TypeScript](screenshots/TypeScript.jpg) |
-| .tsx  | ![TypeScript_React](screenshots/TypeScript_React.jpg) |
-| .xml  | ![XML](screenshots/XML.jpg) |
-| .yml  | ![YML](screenshots/YML.jpg) |
+| Format          | Example screenshot                                              |
+| ----------------| --------------------------------------------------------------- |
+| `.bat`          | ![Batch](screenshots/Batch.png)                                 |
+| `.css`          | ![CSS](screenshots/CSS.png)                                     |
+| `.conf` (Nginx) | ![NGINX_Conf](screenshots/NGINX_Conf.png)                       |
+| `.cypher`       | ![Cypher_Query_Language](screenshots/Cypher_Query_Language.png) |
+| `.dot`          | ![Graphviz](screenshots/Graphviz.png)                           |
+| `Dockerfile`    | ![Dockerfile](screenshots/Dockerfile.png)                       |
+| `.editorconfig` | ![EditorConfig](screenshots/EditorConfig.png)                   |
+| `.env`          | ![Environment_Variables](screenshots/Environment_Variables.png) |
+| `.glsl`         | ![GLSL](screenshots/GLSL.png)                                   |
+| `.hbs`          | ![Handlebars](screenshots/Handlebars.png)                       |
+| `.fx`, `.hlsl`  | ![HLSL](screenshots/HLSL.png)                                   |
+| `.html`         | ![HTML](screenshots/HTML.png)                                   |
+| `.ini`, `.toml` | ![Ini](screenshots/Ini.png)                                     |
+| `.js`, `.mjs`   | ![JavaScript](screenshots/JavaScript.png)                       |
+| `.jsx`          | ![JavaScript_React](screenshots/JavaScript_React.png)           |
+| `.json`         | ![JSON](screenshots/JSON.png)                                   |
+| `.jsonc`        | ![JSON_with_Comments](screenshots/JSON_with_Comments.png)       |
+| `.md`           | ![Markdown](screenshots/Markdown.png)                           |
+| `.ms`, `.mrc`   | ![MaxScript](screenshots/MaxScript.png)                         |
+| `.npmrc`        | ![Properties](screenshots/Properties.png)                       |
+| `.sql` (PGSQL)  | ![pgsql](screenshots/pgsql.png)                                 |
+| `.php`          | ![PHP](screenshots/PHP.png)                                     |
+| `.ps1`          | ![PowerShell](screenshots/PowerShell.png)                       |
+| `.py`           | ![Python](screenshots/Python.png)                               |
+| `.reg`          | ![REG](screenshots/REG.png)                                     |
+| `.rs`           | ![Rust](screenshots/Rust.png)                                   |
+| `.cscc`         | ![SCSS](screenshots/SCSS.png)                                   |
+| `.sh`           | ![Shell_Script](screenshots/Shell_Script.png)                   |
+| `.ts`           | ![TypeScript](screenshots/TypeScript.png)                       |
+| `.tsx`          | ![TypeScript React](screenshots/TypeScript_React.png)           |
+| `.vfl`          | ![VEX](screenshots/VEX.png)                                     |
+| `.xml`          | ![XML](screenshots/XML.png)                                     |
+| `.yml`          | ![YAML](screenshots/YAML.png)                                   |
+
 
 Some file formats require additional extensions, such as:
  - `EditorConfig.editorconfig`
