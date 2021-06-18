@@ -412,10 +412,11 @@ describe("Build", function () {
 						// Editorconfig patterns
 						"meta.section.header.editorconfig",
 
-						// YML: -, <<, &
+						// YML: -, <<, &, ---
 						"punctuation.definition.block.sequence.item.yaml",
 						"constant.language.merge.yaml",
 						"punctuation.definition.anchor.yaml",
+						"entity.other.document.begin.yaml",
 
 						// Graphviz: ->
 						"source.dot keyword.operator.dot",
