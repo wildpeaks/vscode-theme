@@ -16,7 +16,7 @@
     "@types/mocha": "10.0.1",
     "@types/node": "18.14.6",
     "@wildpeaks/eslint-config-typescript": "15.6.0",
-    "@wildpeaks/prettier-config": "15.6.0",
+    "@wildpeaks/prettier-config": "15.7.0",
     "@wildpeaks/tsconfig": "4.0.0",
     "eslint": "8.38.0",
     "fs-extra": "11.1.1",
